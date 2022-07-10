@@ -1,7 +1,7 @@
 /*
  * @Author: yanzhourong
  * @Date: 2022-07-05 23:36:15
- * @LastEditTime: 2022-07-05 23:48:55
+ * @LastEditTime: 2022-07-11 00:33:16
  * @Description: 
  */
 import React from 'react';
@@ -24,7 +24,7 @@ const Menu = () => {
                     {/*<Link to="/">主页</Link>*/}
                     <NavLink
                         exact
-                        // activeClassName={classes.active}
+                        activeClassName={classes.active}
                         activeStyle={{textDecoration:"underline"}}
                         to="/">主页</NavLink>
                 </li>
@@ -32,9 +32,49 @@ const Menu = () => {
                     {/*<Link to="/about">关于</Link>*/}
                     <NavLink
                         exact
-                        // activeClassName={classes.active}
+                        activeClassName={classes.active}
                         activeStyle={{textDecoration:"underline"}}
-                        to="/about.html">关于</NavLink>
+                        to="/about">关于</NavLink>
+                </li>
+                <li>
+                    {/*<Link to="/about">关于</Link>*/}
+                    <NavLink
+                        exact
+                        activeClassName={classes.active}
+                        activeStyle={{textDecoration:"underline"}}
+                        to="/param/1">param-1</NavLink>
+                </li>
+                <li>
+                    {/*<Link to="/about">关于</Link>*/}
+                    <NavLink
+                        exact
+                        activeClassName={classes.active}
+                        activeStyle={{textDecoration:"underline"}}
+                        to="/render-component">render-component</NavLink>
+                </li>
+                <li>
+                    {/*<Link to="/about">关于</Link>*/}
+                    <NavLink
+                        exact
+                        activeClassName={classes.active}
+                        activeStyle={{textDecoration:"underline"}}
+                        to="/children-component">children-component</NavLink>
+                </li>
+                <li>
+                    {/*<Link to="/about">关于</Link>*/}
+                    <NavLink
+                        exact
+                        activeClassName={classes.active}
+                        activeStyle={{textDecoration:"underline"}}
+                        to="/redirect-component">redirect-component</NavLink>
+                </li>
+                <li>
+                    {/*<Link to="/about">关于</Link>*/}
+                    <NavLink
+                        exact
+                        activeClassName={classes.active}
+                        activeStyle={{textDecoration:"underline"}}
+                        to="/myform">myform</NavLink>
                 </li>
             </ul>
         </div>
